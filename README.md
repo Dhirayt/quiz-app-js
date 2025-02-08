@@ -1,6 +1,6 @@
 # Quiz App
 
-This is a simple quiz application built using HTML, CSS, and JavaScript. It is designed to fetch quiz data from an API and present it to the user in an interactive format.
+This is a simple interactive quiz application built with HTML, CSS, and JavaScript. It is designed to fetch quiz data from an API and present it to the user in an engaging format.
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ The application is designed to fetch quiz data from the API endpoint `https://ap
 
 ## Mock Data
 
-For development and testing purposes, a `data.json` file is included with mock quiz data. The application is currently configured to use this mock data.  To use the mock data, the code fetches from `data.json`.
+For development and testing purposes, a `data.json` file is included with mock quiz data. The application is currently configured to use this mock data.  This allows the quiz functionality to be demonstrated even while the primary API is unavailable.
 
 ## Functionality
 
@@ -29,23 +29,27 @@ For development and testing purposes, a `data.json` file is included with mock q
 
 ## Setup Instructions
 
-1.  Clone the repository: `git clone https://github.com/your-username/your-repository-name.git` (Replace with your actual repository URL)
+1.  Clone the repository: `https://github.com/Dhirayt/quiz-app-js.git` 
 2.  Open `index.html` in your web browser.
 
 ## Screenshots
 
-*(Insert screenshots of the quiz app here.  Show the quiz starting, a question being answered, and the results screen.  Even if using mock data, these screenshots are crucial.)*
+Due to the 500 Internal Server Error with the intended API (`https://api.jsonserve.com/Uw5CrX`), I am unable to generate screenshots of the quiz application using live data.  The application relies on fetching data from this API, and the server error prevents the data from being retrieved.  Therefore, visual representations of the quiz in action using the intended data source are currently unavailable.  However, screenshots of the application running with mock data are included below.
+
+
 
 ## Video Walkthrough
 
-*(Insert a link to a video walkthrough of the app here.  Demonstrate the quiz functionality using the mock data.  Explain the API issue in the video.)*
+Similarly, the API issue prevents me from creating a meaningful video walkthrough demonstrating the quiz functionality with live data.  As the quiz relies on the API to populate questions and answers, the 500 error makes it impossible to showcase the intended user experience with the correct data. A video walkthrough using the intended API would be possible once the API issue is resolved.  However, a video walkthrough demonstrating the application with mock data is included below.
+
 
 ## Further Improvements
 
 *   Implement proper error handling for API issues (display a user-friendly message if the API is unavailable).
-*   Enhance UI/UX (improve styling, responsiveness).
+*   Enhance UI/UX (improve styling, responsiveness, accessibility).
 *   Add more gamification features (timer, points, different question types, etc.).
 *   Implement unit tests.
+*   Refactor code for better organization and maintainability.
 
 ## Note
 
@@ -56,7 +60,7 @@ The application is currently using mock data due to the 500 Internal Server Erro
 To switch back to the live API, follow these steps:
 
 1.  Open `script.js`.
-2.  Locate the `fetch` call in the `fetchQuizData` function.
+2.  Locate the `fetch` call within the `fetchQuizData` function.
 3.  Replace the current fetch URL (`data.json`) with the live API URL (`https://api.jsonserve.com/Uw5CrX`).
 
 ```javascript
