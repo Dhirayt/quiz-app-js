@@ -53,7 +53,7 @@ Similarly, the API issue prevents me from creating a meaningful video walkthroug
 
 ## Note
 
-The application is currently using mock data due to the 500 Internal Server Error with the intended API.  Once the API issue is resolved, the application can be easily configured to use the live API endpoint.
+The application is currently not able to fetch data due to the 500 Internal Server Error with the intended API.  Once the API issue is resolved, the application can be easily configured to use the live API endpoint.
 
 ## API Configuration (When the API is fixed)
 
